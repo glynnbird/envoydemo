@@ -4,7 +4,8 @@
   "description": "Cloudant Envoy PouchDB demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "cloudant",
@@ -15,5 +16,12 @@
   "dependencies": {
     "cfenv": "^1.0.3",
     "express": "^4.14.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glynnbird/envoydemo"
+  },
+  "engines": {
+		"node": "4.x"
+	} 
 }
